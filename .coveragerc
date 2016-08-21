@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/libsudofu
+   */site-packages/libsudofu
+
+[run]
+branch = true
+source =
+    libsudofu
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
